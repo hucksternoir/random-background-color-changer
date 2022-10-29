@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+.caixa {
+  width: 500px;
+  margin: 250px auto auto auto;
+  padding: 30px 20px;
+}
+
+.caixa h1 {
+  padding: 30px 60px;
+  background-color: #000;
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 1.75rem;
+  border-radius: 20px;
+  width: max-content;
+  text-align: center;
+  position: relative;
+}
+
+.opcoes {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.opcoes button {
+  border: none;
+  background-color: #121212;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.opcoes button:hover {
+  background-color: #303030;
+}
