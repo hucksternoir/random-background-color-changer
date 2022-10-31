@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
 
+body {
+  display: grid;
+  /* grid-template-columns: 120px 1fr 120px; */
+}
+
 .caixa {
-  width: 500px;
-  margin: 250px auto auto auto;
+  margin: 120px 120px auto 120px;
+  max-width: 700px;
   padding: 30px 20px;
+  align-self: center;
+  justify-self: center;
 }
 
 .caixa h1 {
